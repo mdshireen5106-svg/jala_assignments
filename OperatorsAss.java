@@ -1,5 +1,5 @@
 public class OperatorsAss {
-    // 1. Arithmetic operators
+    // 1. Write a function for arithmetic operators(+,-,*,/)
     public void arithmeticOperators(int a, int b) {
         System.out.println("Addition = " + (a+b));
         System.out.println("Subtraction = " + (a-b));
@@ -11,7 +11,7 @@ public class OperatorsAss {
         }
     }
 
-    // 2. Increment and Decrement operators
+    // 2. Write a method for increment and decrement operators(++, --)
     public void incrementDecrementOperators(int a) {
         System.out.println("Initial value = " + a);
         System.out.println("Pre Increment = " + (++a));
@@ -20,13 +20,13 @@ public class OperatorsAss {
         System.out.println("Post Decrement = " + (a--));
     }
 
-    // 3. Equal or Not equal operator
+    // 3. Program to equal operator and not equal operators
     public void equalityOperators(int a, int b) {
         System.out.println("Equal = " + (a==b));
         System.out.println("Not Equal = " + (a!=b));
     }
 
-    // 4. Two  numbers are equal or not
+    // 4. Write a program to find the two numbers equal or not.
     public void checkEqualNumbers(int x, int y) {
         if(x==y){
             System.out.println("The two numbers are equal");
@@ -35,14 +35,14 @@ public class OperatorsAss {
         }
     }
 
-    // 5. Logical AND, OR and NOT operators
+    // 5. Programs on Logical AND,OR operator and Logical NOT
     public void logicalOperators(boolean a, boolean b){
         System.out.println("Logical AND = " + (a && b));
         System.out.println("Logical OR = " + (a || b));
         System.out.println("Logical NOT = " + (!a));
     } 
 
-    // 6. Relational operators
+    // 6. Program for relational operators (<,<==, >, >==)
     public void relationalOperators(int a, int b) {
         System.out.println("Greater than = " + (a>b));
         System.out.println("Less than = " + (a<b));
@@ -50,7 +50,7 @@ public class OperatorsAss {
         System.out.println("Less than or equal to = " + (a<=b));
     }
 
-    // 7. Print smaller and larger number
+    // 7. Print the smaller and larger number
     public void printSmallerLarger(int m, int n) {
         if(m>n){
             System.out.println("Larger number is: " + m);
