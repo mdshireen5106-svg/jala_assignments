@@ -1,5 +1,3 @@
-package abstract_ass;
-
 public class Car extends Vehicle {
      // Implementing Abstract Method
     @Override
