@@ -1,5 +1,3 @@
-package abstract_ass;
-
 // 1. Create an abstract class with abstract and non-abstract methods.
 public abstract class Vehicle {
     //Abstract method
